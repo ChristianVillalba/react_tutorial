@@ -39,10 +39,11 @@ Instructor: Dr. Angela Yu
     npm start
     ```
 
+ 
 ## Hello World: Introduction to React
 * index.html:  
  
-```
+```javascript
 ...
 <body>
   <div id="root"></div>
@@ -61,7 +62,7 @@ The HTML file won't be used anymore,
 all the code is written in the JS file (index.js) using JS and React
    
 * index.js:     
-```
+```javascript
 import React from 'react';
 import ReactDOM from 'react-dom';
 ReactDOM.render(
@@ -89,3 +90,17 @@ Our HTML is compiled by the React modeule
 Babel (JS Compiler) takes modern JS (JSX in this case)      
 and compile it down to a version of JS that any browser can understand
 This solves problems about browser compatibilities       
+
+
+
+### Tip: React Complete Guide
+All course attachments which you find
+will be missing the locally downloaded
+and installed dependencies:
+
+VS Code: after a project is dowloaded, open a Terminal and use: 
+```
+npm install
+```
+This will look into the package.json file and download and install       
+all the required packages and dependencies into this project folder.
